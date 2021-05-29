@@ -39,8 +39,7 @@ void loop()
     {   
     	digitalWrite(pinoLam2, LOW);
     }
-    if(armazenavalor == 0xFD00FF)    /*BOTAO LIGAR/DESLIGAR - 
-    									DESLIGA TODAS AS LAMPS*/ 
+    if(armazenavalor == 0xFD00FF)    /*BOTAO LIGAR/DESLIGAR - DESLIGA TODAS AS LAMPS*/ 
     {   
       	digitalWrite(pinoLam1, LOW);
     	digitalWrite(pinoLam2, LOW);

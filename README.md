@@ -2,7 +2,7 @@
 
 ### Link do Projeto:
 
-https://www.tinkercad.com/things/aSvq77bK2u2-lampadas-controle-remoto/editel?sharecode=2A5kdZ_BcGd1GdoWW_WoBFWRl-6M0UhdNdiddmBzqt4
+https://www.tinkercad.com/things/aSvq77bK2u2-lampadas-controle-remoto
 
 ## Materiais Usados:
 

@@ -27,19 +27,19 @@ void loop()
     {   
     	digitalWrite(pinoLam1, HIGH);
     }
-    if(armazenavalor == 0xFD8877)    // BOTAO 2 - DESLIGA LAMP 1
+    if(armazenavalor == 0xFD8877)    // BOTAO 2 - DESLIGA LAMPADA 1
     {   
     	digitalWrite(pinoLam1, LOW);
     }
-    if(armazenavalor == 0xFD48B7)    // BOTAO 3 - LIGA LAMP 2
+    if(armazenavalor == 0xFD48B7)    // BOTAO 3 - LIGA LAMPADA 2
     {   
     	digitalWrite(pinoLam2, HIGH);
     }
-    if(armazenavalor == 0xFD28D7)    // BOTAO 4 - DESLIGA LAMP 2
+    if(armazenavalor == 0xFD28D7)    // BOTAO 4 - DESLIGA LAMPADA 2
     {   
     	digitalWrite(pinoLam2, LOW);
     }
-    if(armazenavalor == 0xFD00FF)    /*BOTAO LIGAR/DESLIGAR - DESLIGA TODAS AS LAMPS*/ 
+    if(armazenavalor == 0xFD00FF)    //BOTAO LIGAR/DESLIGAR - DESLIGA TODAS AS LAMPADAS 
     {   
       	digitalWrite(pinoLam1, LOW);
     	digitalWrite(pinoLam2, LOW);

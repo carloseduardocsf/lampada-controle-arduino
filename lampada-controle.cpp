@@ -23,7 +23,7 @@ void loop()
   	Serial.print("Valor lido : ");
     Serial.println(results.value, HEX);
     armazenavalor = (results.value);
-    if(armazenavalor == 0xFD08F7)    // BOTAO 1 - LIGA LAMP 1
+    if(armazenavalor == 0xFD08F7)    // BOTAO 1 - LIGA LAMPADA 1
     {   
     	digitalWrite(pinoLam1, HIGH);
     }
